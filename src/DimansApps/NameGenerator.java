@@ -12,6 +12,6 @@ class NameGenerator {
     String[] secondName = {"Иванов","Петров","Сидоров","Кошкин","Мышкин","Путин","Ли"};
 
     Random rand = new Random();
-    return firstName[rand.nextInt(10)]+" "+secondName[rand.nextInt(7)];
+    return firstName[rand.nextInt(firstName.length)]+" "+secondName[rand.nextInt(secondName.length)];
     }
 }

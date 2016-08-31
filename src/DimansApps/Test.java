@@ -4,7 +4,8 @@
 package DimansApps;
 
 public class Test {
-    public static void main (String rgs[]) {
-        System.out.println(NameGenerator.generateName());
+    public static void main (String args[]) {
+        for (int i = 0; i < 10; i++)
+         System.out.println(NameGenerator.generateName());
     }
 }
